@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Capgemini</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/anuncios.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="titulo">Agência Divulga Tudo</h1>
+    </div>
+  </header>
+  <main>
+    <section class="container" >
+      <h2>Relatório dos anúncios</h2>
+      <label for="filtrar-tabela">Pesquisar por nome</label>
+      <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do anúncio">
+      <label for="filtrar-tabela">Pesquisar por data</label>
+      <input type="date" name="filtro" id="filtrar-tabela-porData" placeholder="Digite a data do anúncio">
+      <table class="cadastros" data-table>
+         <thead>
+          <th>Nome do Anúncio</th>
+           <th>Nome do Cliente</th>   
+           <th>Data Inicio</th>
+           <th>Data Fim</th>
+           <th>Valor total investido</th>
+           <th>Quantidade de visualizações</th>
+           <th>Quantidade de cliques</th>
+           <th>Quantidade de compartilhamentos</th>
+         </thead>
+         <tbody id="tabela-anuncios" class="js-todas-tarefas">
+           <tr data-id class="anuncio table-item">
+             <td class="nomeAnuncio info-anuncio">Loja Rebecca</td>
+             <td class="nomeCliente info-cliente">Rebecca</td>
+             <td class="dataInicio info-dataInicio">14/07/2021</td>
+             <td class="dataFim info-dataFim">17/07/2021</td>
+             <td class="investimento info-investimento">R$ 60,00</td>
+             <td class="visu info-visualizacoes">7056</td>
+             <td class="cliques info-cliques">614</td>
+             <td class="compartilhamentos info-compartilhamentos">94</td>
+           </tr>                      
+         </tbody>
+      </table>
+    </section>
+  </main>
+
+  <section class="container">
+   
+    <h2 id="titulo-form">Adicionar novo anúncio</h2>
+      <form class="form-cadastros" data-form >
+
+        <div class="grupo">
+          <label for="anuncio">Nome do anuncio</label>
+          <input type="text" name="anuncio" placeholder="Nome do anuncio" data-anuncio  class="campo  info-anuncio" required="required" >
+        </div> 
+
+        <div class="grupo">
+          <label for="name">Cliente</label>
+          <input type="text" name="cliente" placeholder="Seu nome" data-name  class="campo info-cliente" required="required"> 
+        </div>       
+
+        <div class="grupo">
+          <label for="valorInvestimento">Valor do investimento diário</label>
+          <input type="text" name="investimento" id="valorInvestimento"  class="campo campo-medio info-investimento"placeholder="Use ponto para separar as casas decimais" required="required">
+        </div>
+        
+        <div class="grupo" data-dates>
+          <label for="data">Data início</label>
+          <input type="date" name="dataInicio" id="dataInicio" data-date-inicio class="info-dataInicio" required="required">
+          <label for="data">Data fim</label>
+          <input type="date" name="dataFim" id="dataFim" data-date-fim class="info-dataFim" required="required">
+        </div>
+      </form>          
+       <button data-save>Salvar</button>    
+  </section> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="js/calculadora.js"></script>
+  <script src="js/filtraAnuncios.js"></script>
+  <script src="js/salvar.js"></script>
+  <script src="js/gravaAnuncio.js"></script>
+    
+</body>
+</html>
