@@ -60,6 +60,7 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 <p>As informações ficaram salvas em um relatório gerado em uma tabela na mesma página;</p>
 <p>Acima da tabela tem um campo de filtro onde é possível pesquisar anuncios através do nome do anúncio.</p>
 <p>Obs: A opção para pesquisar por data está sendo implementada</p>
+<p>Você pode acessar a resolução online neste link: https://aremartins.github.io/desafio-academia-tecnica-capgemini-para-mulheres/</p>
 <h3>Aqui você pode ver uma prévia do sistema<h3>
 <img src="https://github.com/aremartins/Desafio-T-cnico-Capgemini-Proway/blob/main/Desafio%20Capgemini.gif?raw=true"/>
 
