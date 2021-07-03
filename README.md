@@ -47,7 +47,7 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 
 <h2>Instruções para rodar a Calculadora</h2>
 <p> Foi usada a linguagem Java para resolução desse desafio</p>
-<p>Para rodar o script você precisará do Java instalado na sua máquina. Com o projeto baixado na sua máquina, abra a pasta SRC, e o arquivo Calculadora.java em uma IDEA como Eclipse ou IntelliJ ou simplesmente copie o código da Calculadora.java diretamente do GitHub e crie um novo projeto Java na sua máquina, copie e cole o código em uma classe nomeada como Calculadora. </p>
+<p>Para rodar o script você precisará do Java JDK instalado na sua máquina. Com o projeto baixado na sua máquina, abra a pasta SRC, e o arquivo Calculadora.java em uma IDEA como Eclipse ou IntelliJ ou simplesmente copie o código da Calculadora.java diretamente do GitHub e crie um novo projeto Java na sua máquina, copie e cole o código em uma classe nomeada como Calculadora. </p>
 <p> Usei o Java 8 para a resolução. Informe o valor que gostaria de investir para fazer o cálculo da projeção de visualizações e rode o programa. O resultado será exibido no console.</p>
 
 </br>
