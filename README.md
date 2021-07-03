@@ -53,6 +53,7 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 </br>
 </br>
 <h2> Instruções para o sistema de cadastro de anúncios </h2>
+<p> Para a resolução deste desafio, foi criado um sistema em HTML, CSS e JavaScript</p>
 <p>Abra a pasta com os arquivos do projeto na sua máquina, execute o arquivo index.html; </p>
 <p>Faça a simulação de um cadastro, digitando os dados solicitados no formulário;</p>
 <p>Clique no botão salvar</p>
@@ -60,7 +61,7 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 <p>As informações ficaram salvas em um relatório gerado em uma tabela na mesma página;</p>
 <p>Acima da tabela tem um campo de filtro onde é possível pesquisar anuncios através do nome do anúncio.</p>
 <p>Obs: A opção para pesquisar por data está sendo implementada</p>
-<p>Você pode acessar a resolução online neste link: https://aremartins.github.io/desafio-academia-tecnica-capgemini-para-mulheres/</p>
+<p>Os dados estão sendo persistidos com a api WebStorage em LocalStorage. As informações ficarão salvas localmente</p>
 <h3>Aqui você pode ver uma prévia do sistema<h3>
 <img src="https://github.com/aremartins/Desafio-T-cnico-Capgemini-Proway/blob/main/Desafio%20Capgemini.gif?raw=true"/>
 
