@@ -63,6 +63,6 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 <p>Obs: A opção para pesquisar por data está sendo implementada</p>
 <p>Os dados estão sendo persistidos com a api WebStorage em LocalStorage. As informações ficarão salvas localmente</p>
 <h3>Aqui você pode ver uma prévia do sistema<h3>
-<img src="https://github.com/aremartins/desafio-academia-tecnica-capgemini-para-mulheres/blob/main/capgemini.gif?raw=true"/>
+<img src="https://github.com/aremartins/desafio-academia-tecnica-capgemini-para-mulheres/blob/main/showCapgemnini.gif?raw=true"/>
 
 
