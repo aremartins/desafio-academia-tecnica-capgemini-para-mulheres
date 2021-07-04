@@ -27,8 +27,8 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 <li>data de início</li>
 <lidata de término</li>
 <li>investimento por dia</li>
-</br></br>
-O sistema fornecerá os relatórios de cada anúncio contendo:
+</br>
+<h3>O sistema fornecerá os relatórios de cada anúncio contendo:</h3>
 
 <li>valor total investido</li>
 
@@ -39,23 +39,22 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 <li>quantidade máxima de compartilhamentos</li>
 
 <li>Os relatórios poderão ser filtrados por intervalo de tempo e cliente.</li>
-</br></br>
+</br>
 
 <h2>Instruções para rodar o Projeto</h2>
-<p>Faça uma cópia do projeto para sua máquina: git clone https://github.com/aremartins/desafio-academia-tecnica-capgemini-para-mulheres.git</p>
+<p>Faça uma cópia do projeto para sua máquina: git clone https://github.com/aremartins/desafio-academia-tecnica-capgemini-para-mulheres.git ou um download.</p>
 </br>
+<h2>Calculadora</h2>
+<p>📋 Como pré requisito, você precisará do Java JDK instalado na sua máquina. Foi utilizada a versão 8 do Java e de uma IDE para Java configurada e sua máquina, como Eclipse ou Intellij.  </p>
+<p>🚀 Com o projeto baixado na sua máquina, abra a pasta SRC, e o arquivo Calculadora.java na IDE.  Ou ao invés de baixar o projeto, simplesmente copie o código contido em Calculadora.java diretamente do GitHub e crie um novo projeto Java na sua máquina, copie e cole o código em uma classe nomeada como Calculadora. </p>
+<p>⚙️ Informe o valor que gostaria de investir para fazer o cálculo da projeção de visualizações e rode o programa. O resultado será exibido no console.</p>
 
-<h2>Instruções para rodar a Calculadora</h2>
-<p> Foi usada a linguagem Java para resolução desse desafio</p>
-<p>Para rodar o script você precisará do Java JDK instalado na sua máquina. Com o projeto baixado na sua máquina, abra a pasta SRC, e o arquivo Calculadora.java em uma IDEA como Eclipse ou IntelliJ ou simplesmente copie o código da Calculadora.java diretamente do GitHub e crie um novo projeto Java na sua máquina, copie e cole o código em uma classe nomeada como Calculadora. </p>
-<p> Usei o Java 8 para a resolução. Informe o valor que gostaria de investir para fazer o cálculo da projeção de visualizações e rode o programa. O resultado será exibido no console.</p>
-
 </br>
 </br>
-<h2> Instruções para o sistema de cadastro de anúncios </h2>
-<p> Para a resolução deste desafio, foi criado um sistema em HTML, CSS e JavaScript</p>
-<p>Abra a pasta com os arquivos do projeto na sua máquina, execute o arquivo index.html; </p>
-<p>Faça a simulação de um cadastro, digitando os dados solicitados no formulário;</p>
+<h2> Sistema de cadastro de anúncios </h2>
+<p>📋 Para a resolução deste desafio, foi criado um sistema em HTML, CSS e JavaScript. Não há muitos pré requisitos para visualizar o resultado, mas indico a utilização do navegador Google Chrome.</p>
+<p>🚀 Abra a pasta com os arquivos do projeto na sua máquina, eexecute o arquivo index.html; </p>
+<p>⚙️ Faça a simulação de um cadastro, digitando os dados solicitados no formulário;</p>
 <p>Clique no botão salvar</p>
 <p>O sistema irá calcular o valor total investido de acordo com o intervalo de dias informado nos campos data inicial e data final, irá também calcular a projeção da quantidade máxima de visualizações, cliques e compartilhamentos que o anúncio poderá ter;</p>
 <p>As informações ficaram salvas em um relatório gerado em uma tabela na mesma página;</p>
@@ -64,5 +63,18 @@ O sistema fornecerá os relatórios de cada anúncio contendo:
 <p>Os dados estão sendo persistidos com a api WebStorage em LocalStorage. As informações ficarão salvas localmente</p>
 <h3>Aqui você pode ver uma prévia do sistema<h3>
 <img src="https://github.com/aremartins/desafio-academia-tecnica-capgemini-para-mulheres/blob/main/showCapgemnini.gif?raw=true"/>
+  </br>
+  </br>
+  <h2>🛠️Entendo a construção do Sistema</h2>
+  <h3>1º Desafio - Calculadora de anúncios</h3>
+  <p>Para a resolução deste desafio eu primeiramente fiz utilizando JavaScript que é a linguagem que utilizo a mais tempo, mas recentemente tenho me interessado muito por Java também e resolvi começar a estudar, quando vi a proposta da Academia Capgmemini me senti ainda mais motivada, e paralelamente na semana anterior ao prazo final da entrega do desafio consegui passar em uma seleção para um treinamento em Java de um mês, que está acontecendo no período noturno - O Talentos Tech Bank, dessa forma consegui aplicar o que aprendi recentemente  para resolução deste desafio. Que foi basicamente além do que eu já sabia um pouco, aprendi como pedir dados para o usuário através da classe Scanner e assim apliquei a lógica do desafio nos valor de entrada(valor que o usuário deeja investir). Inicialmente o resultado estava dando errado de acordo com meu entendimento do que o sistema deveria retornar, debugando descobri que como havia declarado as variáveis como double, o cálculo para os clientes que compartilhavam o anúncio estavam dando um valor 'quebrado'. Por exemplo para 10,00 de investimento inicial, ao invés de retornar 5 clientes que compartilhavam o anúncio retornava 5,36666666. Para resolver este problema, apliquei o math.round nas variáveis com esse problema.</p> 
+  </br>
+ <h3>2ºDesafio - Sistema de Cadastro de anúncios.</h3>
+ <p>Utilizei JavaScript para aplicação da lógica e alguns recursos de CSS. Na funcionalidade para pesquisar os anúncios por nome, apliquei uma classe na tabela de anúncios com 'display:none' e deixei desativada, assim inicialmente todos os anúncios cadastrados são exibidos. Ao digitar o nome do anúncio, essa classe é ativada para todos os anúncios, menos para os anúncios que o usuário está pesquisando, assim só aparecem os anúncios de interesse. Para que os nomes vão aparecendo simultaneamente com as letras que o usuário está digitando e filtrar independente de as letras serem digitadas em maiúscula ou minúsculas ou com acentuação, utilizei uma lógica com expressão regular. </p>
+<p> Para salvar os cadastros e gerar um relatório com as informações, os dados estão sendo persistidos com a api WebStorage em LocalStorage. As informações ficarão salvas localmente</p>
+</br>
+  </br>
+
+  <p><strong>Feito com ❤️ por Aretha Martins!</strong></p>
 
 
