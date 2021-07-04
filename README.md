@@ -53,7 +53,8 @@ Crie um sistema que permita o cadastro de anúncios. O anúncio deverá conter o
 </br>
 <h2> Sistema de cadastro de anúncios </h2>
 <p>📋 Para a resolução deste desafio, foi criado um sistema em HTML, CSS e JavaScript. Não há muitos pré requisitos para visualizar o resultado, mas indico a utilização do navegador Google Chrome.</p>
-<p>🚀 Abra a pasta com os arquivos do projeto na sua máquina, eexecute o arquivo index.html; </p>
+<p>🚀 Teste diretamente neste link: https://desafio-academia-tecnica-capgemini-para-mulheres.vercel.app/
+<p>Ou abra a pasta com os arquivos do projeto na sua máquina, e execute o arquivo index.html; </p>
 <p>⚙️ Faça a simulação de um cadastro, digitando os dados solicitados no formulário;</p>
 <p>Clique no botão salvar</p>
 <p>O sistema irá calcular o valor total investido de acordo com o intervalo de dias informado nos campos data inicial e data final, irá também calcular a projeção da quantidade máxima de visualizações, cliques e compartilhamentos que o anúncio poderá ter;</p>
